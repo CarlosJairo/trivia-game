@@ -6,11 +6,16 @@ import QuestionCard from "../../components/organisms/QuestionCard/QuestionCard";
 import Results from "../../components/organisms/Results/Results";
 import type { Question } from "../../utils/constans";
 import { UI_TEXT } from "../../utils/uiText";
+import NotFound from "../NotFound/NotFound";
 
 const GamePage: React.FC = () => {
   const [index, setIndex] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const { category } = useParams();
+
+  if (!category || !(category in questions)) {
+    return <NotFound title={UI_TEXT.categoryNotFound} />;
+  }
 
   const categoryQuestions: Question[] =
     questions[category as keyof typeof questions].questions;
@@ -26,10 +31,6 @@ const GamePage: React.FC = () => {
 
     setTimeout(() => setIndex((prevIndex) => prevIndex + 1), 500);
   };
-
-  if (!category || !questions[category as keyof typeof questions]) {
-    return <div>{UI_TEXT.categoryNotFound}</div>;
-  }
 
   if (index === categoryQuestions.length) {
     return (
