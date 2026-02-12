@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import QuestionCard from "../../components/organisms/QuestionCard/QuestionCard";
 import Results from "../../components/organisms/Results/Results";
 import type { Question } from "../../utils/constans";
+import { UI_TEXT } from "../../utils/uiText";
 
 const GamePage: React.FC = () => {
   const [index, setIndex] = useState<number>(0);
@@ -27,7 +28,7 @@ const GamePage: React.FC = () => {
   };
 
   if (!category || !questions[category as keyof typeof questions]) {
-    return <div>Category not found</div>;
+    return <div>{UI_TEXT.categoryNotFound}</div>;
   }
 
   if (index === categoryQuestions.length) {

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../atoms/Button";
 import type { Question } from "../../../utils/constans";
 import styles from "./Results.module.scss";
+import { UI_TEXT } from "../../../utils/uiText";
 
 interface ResultsProps {
   score: number;
@@ -11,12 +12,12 @@ interface ResultsProps {
 const Results = ({ score, categoryQuestions }: ResultsProps) => {
   return (
     <div className={styles.resultsCtn}>
-      <h2>Game Over!</h2>
+      <h2>{UI_TEXT.gameOver}</h2>
       <p>
-        Your final score is: {score} / {categoryQuestions.length}
+        {UI_TEXT.finalScore} {score} / {categoryQuestions.length}
       </p>
       <Button>
-        <Link to={"/"}>Try again</Link>
+        <Link to={"/"}>{UI_TEXT.tryAgain}</Link>
       </Button>
     </div>
   );
