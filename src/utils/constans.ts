@@ -18,3 +18,9 @@ export type Question = {
   options: string[];
   correctAnswer: string;
 };
+
+export const ROUTES = {
+  ALL: "/",
+  GAME: "/game/:category",
+  NOT_FOUND: "/*",
+};
