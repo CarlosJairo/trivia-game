@@ -1,6 +1,6 @@
 {
   "programming": {
-    "image": "src/assets/img/programming.webp",
+    "image": "/img/programming.webp",
     "questions": [
       {
         "id": 6,
@@ -90,7 +90,7 @@
   },
 
   "maths": {
-    "image": "src/assets/img/Maths.webp",
+    "image": "/img/Maths.webp",
     "questions": [
       {
         "id": 2,
@@ -155,7 +155,7 @@
     ]
   },
   "general": {
-    "image": "src/assets/img/General.webp",
+    "image": "/img/General.webp",
     "questions": [
       {
         "id": 2,

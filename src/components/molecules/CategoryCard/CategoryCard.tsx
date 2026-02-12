@@ -10,7 +10,11 @@ type CategoryCardProps = {
 export default function CategoryCard({ label, image, to }: CategoryCardProps) {
   return (
     <Link to={to} className={styles.card}>
-      <img src={image} alt={label} className={styles.card__image} />
+      <img
+        src={`${import.meta.env.BASE_URL}${image}`}
+        alt={label}
+        className={styles.card__image}
+      />
       <span className={styles.card__label}>{label}</span>
     </Link>
   );

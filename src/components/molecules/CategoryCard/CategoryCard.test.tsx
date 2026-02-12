@@ -20,7 +20,7 @@ describe("CategoryCard", () => {
     expect(screen.getByText("History")).toBeInTheDocument();
 
     const img = screen.getByRole("img");
-    expect(img).toHaveAttribute("src", "/path/to/history.jpg");
+    expect(img).toHaveAttribute("src", "//path/to/history.jpg");
     expect(img).toHaveAttribute("alt", "History");
   });
 
