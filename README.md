@@ -2,6 +2,8 @@
 
 A category-based trivia game built with **React, TypeScript, and Vite**, structured using **Atomic Design** principles and fully tested with **Vitest**.
 
+[🚀 Watch the live project here](https://carlosjairo.github.io/trivia-game/)
+
 ---
 
 ## 🚀 Features
