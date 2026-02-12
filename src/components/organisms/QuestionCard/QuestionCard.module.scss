@@ -1,0 +1,52 @@
+@use "../../../styles/variables.scss" as *;
+
+.card {
+  max-width: 420px;
+  width: 100%;
+  white-space: pre-line;
+  padding: 0 1rem;
+
+  &__buttons-ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+
+    button {
+      text-transform: capitalize;
+      min-width: 10rem;
+    }
+  }
+
+  h3 {
+    padding: 1rem;
+    border-radius: 16px;
+    border: 2px solid $border-card-light;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    margin: 1.5rem 0;
+  }
+
+  &--dark {
+    h3 {
+      box-shadow: 0 0 1rem rgba(85, 82, 82, 0.26);
+      background-color: $card-bg-dark;
+      border-color: $card-border-color;
+    }
+  }
+}
+
+.animate {
+  animation: fadeSlide 0.4s ease;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

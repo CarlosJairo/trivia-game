@@ -1,0 +1,10 @@
+.categorySelector {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  place-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 70%;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}

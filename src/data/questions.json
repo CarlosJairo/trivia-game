@@ -1,0 +1,222 @@
+{
+  "programming": {
+    "image": "src/assets/img/programming.webp",
+    "questions": [
+      {
+        "id": 6,
+        "question": "What is a variable in programming?",
+        "options": [
+          "A place to store data",
+          "A type of loop",
+          "An error message"
+        ],
+        "correctAnswer": "A place to store data"
+      },
+      {
+        "id": 7,
+        "question": "Which of these is a loop structure?",
+        "options": ["if", "for", "return"],
+        "correctAnswer": "for"
+      },
+      {
+        "id": 8,
+        "question": "What is the purpose of a function?",
+        "options": [
+          "To repeat code automatically",
+          "To group reusable code",
+          "To store images"
+        ],
+        "correctAnswer": "To group reusable code"
+      },
+      {
+        "id": 9,
+        "question": "Which data structure stores items in order and allows duplicates?",
+        "options": ["Array", "Set", "Dictionary"],
+        "correctAnswer": "Array"
+      },
+      {
+        "id": 10,
+        "question": "What does 'debugging' mean?",
+        "options": [
+          "Writing new features",
+          "Fixing errors in code",
+          "Deleting a program"
+        ],
+        "correctAnswer": "Fixing errors in code"
+      },
+      {
+        "id": 11,
+        "question": "What symbol is commonly used for comments in many programming languages?",
+        "options": ["//", "??", "**"],
+        "correctAnswer": "//"
+      },
+      {
+        "id": 12,
+        "question": "What is an algorithm?",
+        "options": [
+          "A programming language",
+          "A step-by-step solution to a problem",
+          "A type of computer"
+        ],
+        "correctAnswer": "A step-by-step solution to a problem"
+      },
+      {
+        "id": 13,
+        "question": "What does 'compile' usually mean?",
+        "options": [
+          "Translate code into machine language",
+          "Run code in the browser",
+          "Delete errors automatically"
+        ],
+        "correctAnswer": "Translate code into machine language"
+      },
+      {
+        "id": 14,
+        "question": "Which of these is a conditional statement?",
+        "options": ["if", "while", "function"],
+        "correctAnswer": "if"
+      },
+      {
+        "id": 15,
+        "question": "What is the main purpose of a loop?",
+        "options": [
+          "To stop the program",
+          "To repeat a block of code",
+          "To declare variables"
+        ],
+        "correctAnswer": "To repeat a block of code"
+      }
+    ]
+  },
+
+  "maths": {
+    "image": "src/assets/img/Maths.webp",
+    "questions": [
+      {
+        "id": 2,
+        "question": "What is the value of 3^2 + 4^2?",
+        "options": ["25", "49", "12"],
+        "correctAnswer": "25"
+      },
+      {
+        "id": 3,
+        "question": "What is the square root of 144?",
+        "options": ["10", "12", "14"],
+        "correctAnswer": "12"
+      },
+      {
+        "id": 4,
+        "question": "If x + 5 = 12, what is x?",
+        "options": ["5", "7", "12"],
+        "correctAnswer": "7"
+      },
+      {
+        "id": 5,
+        "question": "What is 15% of 200?",
+        "options": ["20", "30", "40"],
+        "correctAnswer": "30"
+      },
+      {
+        "id": 6,
+        "question": "What is the area of a rectangle with width 5 and height 8?",
+        "options": ["13", "40", "26"],
+        "correctAnswer": "40"
+      },
+      {
+        "id": 7,
+        "question": "What is the result of (6 × 7) - 10?",
+        "options": ["32", "42", "52"],
+        "correctAnswer": "32"
+      },
+      {
+        "id": 8,
+        "question": "Solve: 2x = 18",
+        "options": ["6", "8", "9"],
+        "correctAnswer": "9"
+      },
+      {
+        "id": 9,
+        "question": "What is the perimeter of a square with side length 6?",
+        "options": ["12", "24", "36"],
+        "correctAnswer": "24"
+      },
+      {
+        "id": 10,
+        "question": "What is 7 squared?",
+        "options": ["14", "49", "21"],
+        "correctAnswer": "49"
+      },
+      {
+        "id": 11,
+        "question": "What is the value of π (pi) approximately?",
+        "options": ["2.14", "3.14", "4.13"],
+        "correctAnswer": "3.14"
+      }
+    ]
+  },
+  "general": {
+    "image": "src/assets/img/General.webp",
+    "questions": [
+      {
+        "id": 2,
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+        "correctAnswer": "Pacific Ocean"
+      },
+      {
+        "id": 3,
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso"],
+        "correctAnswer": "Leonardo da Vinci"
+      },
+      {
+        "id": 4,
+        "question": "What is the capital city of Australia?",
+        "options": ["Sydney", "Melbourne", "Canberra"],
+        "correctAnswer": "Canberra"
+      },
+      {
+        "id": 5,
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mars", "Jupiter", "Venus"],
+        "correctAnswer": "Mars"
+      },
+      {
+        "id": 6,
+        "question": "In which year did World War II end?",
+        "options": ["1942", "1945", "1950"],
+        "correctAnswer": "1945"
+      },
+      {
+        "id": 7,
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Gd"],
+        "correctAnswer": "Au"
+      },
+      {
+        "id": 8,
+        "question": "Which continent is the Sahara Desert located in?",
+        "options": ["Asia", "Africa", "Australia"],
+        "correctAnswer": "Africa"
+      },
+      {
+        "id": 9,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen"],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "id": 10,
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Iron", "Diamond", "Quartz"],
+        "correctAnswer": "Diamond"
+      },
+      {
+        "id": 11,
+        "question": "Which country is home to the Great Wall?",
+        "options": ["Japan", "China", "India"],
+        "correctAnswer": "China"
+      }
+    ]
+  }
+}

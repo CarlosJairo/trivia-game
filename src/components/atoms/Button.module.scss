@@ -1,0 +1,90 @@
+@use "../../styles/variables.scss" as *;
+
+.button {
+  padding: 12px 18px;
+  margin: 8px 0;
+  border-radius: 3rem;
+  border: 2px solid #9488a7;
+  font-size: 1rem;
+  background-color: $button-bg-light;
+  color: $button-text-light;
+  transition: all 0.2s ease;
+  margin: 0.1rem;
+  cursor: pointer;
+
+  svg {
+    width: 1rem;
+  }
+
+  &:hover {
+    background-color: $button-hover-light;
+    transform: translateY(-1px);
+  }
+
+  &--dark {
+    background-color: $button-bg-dark;
+    color: $button-text-dark;
+    border-color: $button-border-dark;
+
+    &:hover {
+      background-color: $button-hover-dark;
+    }
+  }
+}
+
+.button--icon {
+  display: grid;
+  place-items: center;
+
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+
+  width: 3rem;
+  aspect-ratio: 1 / 1;
+  padding: 0.6rem;
+
+  border-color: black;
+  background-color: #0f172aee;
+
+  svg {
+    fill: white;
+  }
+
+  &:hover {
+    background-color: #0f172a;
+  }
+}
+
+.button--dark.button--icon {
+  background-color: #5cf5e1ee;
+  svg {
+    fill: black;
+  }
+
+  &:hover {
+    background-color: #5cf5e1;
+  }
+}
+
+.button[data-state="correct"] {
+  background-color: #22c55e;
+  animation: correctPulse 0.4s ease;
+}
+
+.button[data-state="wrong"] {
+  background-color: #ef4444;
+  animation: correctPulse 0.4s ease;
+}
+
+@keyframes correctPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
