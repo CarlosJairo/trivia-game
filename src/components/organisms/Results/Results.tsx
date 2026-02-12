@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../../atoms/Button";
+import Button from "../../atoms/Button/Button";
 import type { Question } from "../../../utils/constans";
 import styles from "./Results.module.scss";
 import { UI_TEXT } from "../../../utils/uiText";

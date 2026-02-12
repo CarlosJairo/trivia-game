@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../../components/atoms/Button";
+import Button from "../../components/atoms/Button/Button";
 import GameLayout from "../../components/templates/GameLayout";
 import { UI_TEXT } from "../../utils/uiText";
 

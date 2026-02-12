@@ -1,7 +1,7 @@
 import { DarkIcon, LightIcon } from "../../assets/IconsSVG";
 import useTheme from "../../context/ThemeContext/useTheme";
 import { DARK } from "../../utils/constans";
-import Button from "../atoms/Button";
+import Button from "../atoms/Button/Button";
 import styles from "./GameLayout.module.scss";
 
 type GameLayoutProps = {

@@ -1,5 +1,5 @@
-import useTheme from "../../context/ThemeContext/useTheme";
-import { DARK } from "../../utils/constans";
+import useTheme from "../../../context/ThemeContext/useTheme";
+import { DARK } from "../../../utils/constans";
 import styles from "./Button.module.scss";
 
 type ButtonProps = {
